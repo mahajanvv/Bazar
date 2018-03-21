@@ -38,13 +38,6 @@
 //	$error = 'failed';
 //}
 
-        $user = $_POST['uname'];
-		$password = $_POST['upassword'];
-		echo "uname is ".$user;
-		$conn = mysqli_connect("localhost","root","");
-		
-		$db = mysqli_select_db($conn,"Bazar");
-		echo "Firirng query";
 //		$query = mysqli_query($conn,"SELECT * FROM login WHERE uname LIKE '".$user."' and upassword LIKE '".$password."'");
         $query = mysqli_query($conn,"SELECT * FROM login WHERE uname = '$user' and upassword = '$password'");
         if(!$conn){
