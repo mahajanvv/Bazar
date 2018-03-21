@@ -1,5 +1,5 @@
 <?php
-//my changes are there
+//eorkign on it
 //		$rows = mysqli_num_rows($query);
         $cnt=count($result);
 		if($cnt == 1)
