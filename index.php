@@ -2,15 +2,12 @@
 <html lang="en">
   <head>
     <!-- added new text-->
-<<<<<<< HEAD
    
-=======
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Bootstrap 101 Template</title>
->>>>>>> 630a07a4a1addc34c17ab6fde2daeca191d63ac4
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -64,7 +61,6 @@
         </div>
       </div>
 
-<<<<<<< HEAD
       <div class="middlePage">
         <div class="page-header">
           <h1 class="logo">Bazar <small>Welcome to our place!</small></h1>
@@ -98,7 +94,5 @@
         </div>
       </div>
 
-=======
->>>>>>> 630a07a4a1addc34c17ab6fde2daeca191d63ac4
   </body>
 </html>
