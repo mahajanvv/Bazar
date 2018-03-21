@@ -1,5 +1,8 @@
 <?php
 
+// am adding this comment
+
+
 //		$query = mysqli_query($conn,"SELECT * FROM login WHERE uname LIKE '".$user."' and upassword LIKE '".$password."'");
         $query = mysqli_query($conn,"SELECT * FROM login WHERE uname = '$user' and upassword = '$password'");
         if(!$conn){
